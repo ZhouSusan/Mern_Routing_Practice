@@ -13,7 +13,7 @@ const Word = (props) => {
     
     
     return (
-        isWord ? <div style={{backgroundColor: bgColor , color: color}}>The word is : {word}</div> : <div>This is an invalid word.</div>
+        isWord ? <div style={{backgroundColor: bgColor , color: color , padding: 10, marginTop: 60}}>The word is : {word}</div> : <div>This is an invalid word.</div>
     )
 }
 
